@@ -1,3 +1,12 @@
+
+@font-face {
+  font-family: 'Now';
+  src:  url('../fonts/now-bold.otf');
+
+  font-weight: bold;
+  font-style: normal;
+
+}
 * {box-sizing: border-box;}
 
 body {
@@ -53,18 +62,7 @@ body {
 }
 
 
-.menu{
-  text-align: right;
 
-}
-.menu ul {
-  display: flex;
-}
-
-.menu ul li{
-  list-style: none;
-  padding-right: 20px;
-}
 
 .seccion1{
   display: flex;
@@ -85,7 +83,7 @@ body {
     font-size: 64px;
 
     text-align: left;
-    font-family: Now;
+    font-family: 'Now' !important;
     font-style: normal;
     font-weight: bold;
 
@@ -106,7 +104,7 @@ body {
   border: none;
   background: rgb(255 152 1);
   font-size: 30px;
-  font-family: Now;
+  font-family: 'Now' !important;
   font-style: normal;
   font-weight: bold;
   color: white;
@@ -143,7 +141,7 @@ text-decoration: none;
     font-size: 48px;
 
     text-align: center;
-    font-family: Now;
+    font-family: 'Now' !important;
     font-style: normal;
     font-weight: bold;
 
@@ -171,7 +169,7 @@ text-decoration: none;
 }
 .box h3{
   font-size: 21px;
-  font-family: Now;
+  font-family: 'Now' !important;
   font-style: normal;
   font-weight: bold;
   white-space: nowrap;
@@ -215,7 +213,7 @@ background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(237,237,237,1) 10
     font-size: 48px;
   margin: 0;
     text-align: center;
-    font-family: Now;
+    font-family: 'Now' !important;
     font-style: normal;
     font-weight: bold;
   padding-top: 200px;
@@ -244,7 +242,7 @@ background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(237,237,237,1) 10
     font-size: 64px;
   margin: 0;
     text-align: center;
-    font-family: Now;
+    font-family: 'Now' !important;
     font-style: normal;
     font-weight: bold;
   padding-top: 200px;
@@ -270,7 +268,7 @@ background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(237,237,237,1) 10
     font-size: 24px;
   margin: 0;
     text-align: center;
-    font-family: Now;
+    font-family: 'Now' !important;
     font-style: normal;
     font-weight: bold;
 
@@ -323,7 +321,7 @@ height: 274px;
     font-size: 48px;
   margin: 0;
     text-align: center;
-    font-family: Now;
+    font-family:'Now' !important;
     font-style: normal;
     font-weight: bold;
   padding-top: 200px;
@@ -381,7 +379,7 @@ height: 274px;
     font-size: 24px;
 
     text-align: center;
-    font-family: Now;
+    font-family: 'Now' !important;
     font-style: normal;
     font-weight: bold;
 
@@ -440,13 +438,13 @@ padding: 20px;
 
   background: #1a1a1a;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
-  height: 600px;
+  height: auto;
 }
 .formulario{
 width: 400px;
-
+display: grid;
 
 }
 .label{
@@ -457,6 +455,7 @@ width: 400px;
     font-weight: bold;
     font-size: 24px;
     color: white;
+    padding: 10px 0px;
 
 }
 input{
@@ -470,6 +469,7 @@ input{
 }
 .logoblanco{
   width: 680px;
+
 }
 textarea{
   width: 400px;
@@ -487,7 +487,7 @@ textarea{
       border: none;
       background: rgb(255 152 1);
       font-size: 21px;
-      font-family: Now;
+      font-family: 'Now' !important;
       font-style: normal;
       font-weight: bold;
       color: white;
@@ -497,4 +497,39 @@ textarea{
 }
 .botonenviar:hover{
     background: black;
+}
+.servicios{
+  display: grid;
+width: 320px;
+
+
+}
+.mensaje{
+  padding-bottom: 20px;
+}
+.servicio-link{
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  color: white;
+  padding: 25px 0px;
+  text-decoration: none;
+  border-bottom: 1px solid white;
+}
+.servicio-link:hover{
+  color:rgb(255 152 1);
+}
+.footer-titulo{
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+    color:rgb(255 152 1);
+}
+.menu{
+  display: none;
+}
+.icon-menu{
+  display: none;
 }
