@@ -4,12 +4,13 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="css/estilos.css">
 <link rel="stylesheet" href="css/responsive.css">
-<script src="js/slidertext.js"></script>
+
 <style>
 
 </style>
 </head>
 <body>
+
   <a class="icon-menu burguer-button" id="burger"> <img class="logito" src="img/menu.svg" alt=""> </a>
 
 
@@ -340,41 +341,7 @@ Ademas de tu informacion de contacto y redes sociales.</p>
 
 
 </footer>
-<script>
 
-  const ipad =  window.matchMedia('screen and (max-width:768px)');
-  const menu = document.querySelector('.menu');
-  const burgerbutton = document.querySelector('#burger');
-  const xbutton = document.querySelector('#x');
-  var estado = false;
-  ipad.addListener(validation);
-
-
-
-  function validation(ipad){
-
-    if(ipad.matches == true){
-      burgerbutton.addEventListener('click',hideShow);
-      xbutton.addEventListener('click',hideShow);
-
-    }else {
-      burgerbutton.removeEventListener('click',hideShow);
-      xbutton.removeEventListener('click',hideShow);
-    }
-  }
-  validation(ipad);
-
-
-  function hideShow(){
-    if(menu.classList.contains('is-active')){
-      menu.classList.remove('is-active');
-
-    }else{
-      menu.classList.add('is-active');
-    }
-  }
-
-</script>
 
 
 
@@ -382,4 +349,5 @@ Ademas de tu informacion de contacto y redes sociales.</p>
 
 
 </body>
+<script src="js/myscript.js"></script>
 </html>
