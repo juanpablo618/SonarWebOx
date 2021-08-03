@@ -420,20 +420,21 @@ display: grid;
 .botonenviar{
 
 
-      border-radius: 10px;
-      border: none;
-      background: rgb(255 152 1);
+  border-radius: 10px;
+  border: 2px solid rgb(255 152 1);
+  background: none;
       font-size: 16px;
       font-family: 'Now' !important;
       font-style: normal;
       font-weight: bold;
-      color: white;
+      color: rgb(255 152 1);
       padding: 10px 20px 10px 20px;
       text-decoration: none;;
 
 }
 .botonenviar:hover{
-    background: black;
+  background: rgb(255 152 1);
+  color:white;
 }
 .label{
   white-space: nowrap;
@@ -931,20 +932,24 @@ textarea{
 .botonenviar{
 
 
-      border-radius: 10px;
-      border: none;
-      background: rgb(255 152 1);
-      font-size: 19px;
+  border-radius: 10px;
+  border: 2px solid rgb(255 152 1);
+  background: none;
+      font-size: 16px;
       font-family: 'Now' !important;
       font-style: normal;
       font-weight: bold;
-      color: white;
-      padding: 15px 40px;
-      text-decoration: none;;
+      color: rgb(255 152 1);
+      padding: 8px 20px;
+      text-decoration: none;
+
+      font-size: 21px;
+
 
 }
 .botonenviar:hover{
-    background: black;
+  background: rgb(255 152 1);
+  color:white;
 }
 .servicios{
   display: contents;

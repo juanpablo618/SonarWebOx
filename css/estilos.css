@@ -484,19 +484,20 @@ textarea{
 
 
       border-radius: 10px;
-      border: none;
-      background: rgb(255 152 1);
+      border: 2px solid rgb(255 152 1);
+      background: none;
       font-size: 21px;
       font-family: 'Now' !important;
       font-style: normal;
       font-weight: bold;
-      color: white;
+      color: rgb(255 152 1);
       padding: 15px 40px;
-      text-decoration: none;;
+      text-decoration: none;
 
 }
 .botonenviar:hover{
-    background: black;
+  background: rgb(255 152 1);
+  color:white;
 }
 .servicios{
   display: grid;
