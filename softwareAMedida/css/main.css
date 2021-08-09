@@ -10,20 +10,20 @@
 /*-----------------------------------------------------------
     1  General Styles
     2  Typography
-    3  Buttons & Links 
+    3  Buttons & Links
     4  Header
     5  Services
-    6  About  
+    6  About
     7  Portfolio
     8  Blog
     9  Contact
     10 Footer
-    11 Responsive 
+    11 Responsive
 -------------------------------------------------------------*/
 
 
 /*-----------------------------------------------------------
-    1. General Styles 
+    1. General Styles
 -------------------------------------------------------------*/
 
 
@@ -57,6 +57,10 @@ img {
   max-width: 100%;
   height: auto;
 }
+.logoamedida{
+  position: static !important;
+  max-width: inherit !important;
+}
 h1,
 .h1,
 h2,
@@ -78,7 +82,7 @@ h6,
   outline: none !important;
 }
 /*-----------------------------------------------------------
-  2. Typography 
+  2. Typography
 ------------------------------------------------------------*/
 body {
   color: #314584;
@@ -130,7 +134,7 @@ h6,
 p {
   font-size: 1.1rem;
   line-height: 1.8;
-  color: #6E757A;
+  color: white;
   margin-bottom: 15px;
   letter-spacing: 0.025em;
 }
@@ -288,42 +292,7 @@ p {
 /*-----------------------------------------------------------
   4. Header
 -------------------------------------------------------------*/
-.navbar-light .navbar-nav .nav-link {
-  color: #314584;
-  font-size: 1.1rem;
-}
-.hero-btns {
-  margin-bottom: 350px;
-}
-.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
-  color: #FF3946;
-}
-.navbar {
-  padding: 50px 0 0 0;
-}
-.navbar-light .navbar-brand {
-  margin-right: 10%;
-}
-.nav-item {
-  padding: 0 10px;
-}
-.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
-  color: #FF3946;
-}
-.hero img {
-  position: absolute;
-  top: 0;
-  right: 0;
-  z-index: -9;
-  margin-top: 30px;
-  width: 50%;
-}
-.hero h1 {
-  margin-top: 250px;
-}
-.hero p {
-  margin-bottom: 50px;
-}
+
 /*-----------------------------------------------------------
   5. Services
 -------------------------------------------------------------*/
@@ -413,7 +382,7 @@ p {
 .photobox_type10 .photobox__label{
   width: 95%;
   text-align: center;
-  opacity: 0;  
+  opacity: 0;
   transition: opacity calc(var(--photoboxAnimationDuration, .8s) / 4) cubic-bezier(0.71, 0.05, 0.29, 0.9), transform calc(var(--photoboxAnimationDuration, .8s) / 4) cubic-bezier(0.71, 0.05, 0.29, 0.9);
   will-change: opacity, transform;
   position: absolute;
@@ -424,7 +393,7 @@ p {
   color: #fff;
   font-family: 'Work Sans', sans-serif;
   font-weight: 600;
-  font-size: 1.1rem; 
+  font-size: 1.1rem;
 }
 .photobox_type10:hover .photobox__label{
   opacity: 1;
@@ -564,11 +533,7 @@ textarea {
   10. Footer
 -------------------------------------------------------------*/
 footer {
-  background-color: #314584;
-  width: 100%;
-  min-height: 400px;
-  text-align: center;
-  padding: 70px 0px 0px 0px;
+
 }
 footer h5{
   color: #fff;
@@ -630,7 +595,7 @@ footer h6 {
 }
 @media (max-width: 1199px) {
   .nav-item {
-    padding: 0px; 
+    padding: 0px;
   }
   .navbar-light .navbar-nav .nav-link {
     font-size: 1rem;
@@ -770,4 +735,3 @@ footer h6 {
     display: block;
   }
 }
-
