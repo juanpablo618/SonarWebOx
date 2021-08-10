@@ -9,9 +9,16 @@
 }
 * {box-sizing: border-box;}
 
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+
 body {
   margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Work Sans', sans-serif;
   background: white;
 }
 .primera{
@@ -35,8 +42,9 @@ body {
   padding: 12px;
   text-decoration: none;
   font-size: 24px;
-
+  font-weight: 600;
   border-radius: 4px;
+  letter-spacing: 1px;
 }
 
 .header a.logo {
@@ -177,7 +185,7 @@ text-decoration: none;
 }
 .box p{
   font-size: 19px;
-    font-family: Open Sans;
+    font-family: 'Open Sans', sans-serif;
   font-style: normal;
   font-weight: bold;
   white-space: nowrap;
@@ -201,7 +209,7 @@ background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(237,237,237,1) 10
 .seccion3 p{
   white-space: nowrap;
     text-align: center;
-    font-family: Open Sans;
+    font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 24px;
@@ -230,7 +238,7 @@ background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(237,237,237,1) 10
 .seccion4 p{
   white-space: nowrap;
     text-align: center;
-    font-family: Open Sans;
+    font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 24px;
@@ -330,7 +338,7 @@ height: 274px;
 .seccion5 p{
   white-space: nowrap;
     text-align: center;
-    font-family: Open Sans;
+    font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 24px;
@@ -353,7 +361,7 @@ height: 274px;
 .seccion6 p{
   white-space: nowrap;
     text-align: center;
-    font-family: Open Sans;
+    font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 24px;
@@ -423,7 +431,7 @@ justify-content: center;
   align-items: center;
   height: 100px;
   font-size: 24px;
-  font-family: Open Sans;
+  font-family: 'Open Sans', sans-serif;
   font-style: normal;
   font-weight: bold;
 
@@ -450,7 +458,7 @@ display: grid;
 .label{
   white-space: nowrap;
 
-    font-family: Open Sans;
+    font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 24px;
@@ -463,7 +471,7 @@ input{
   height: 50px;
   border-radius: 10px;
   font-size: 22px;
-  font-family: Open Sans;
+  font-family: 'Open Sans', sans-serif;
   font-style: normal;
   font-weight: bold;
 }
@@ -476,7 +484,7 @@ textarea{
   height: 100px;
   border-radius: 10px;
   font-size: 22px;
-  font-family: Open Sans;
+  font-family: 'Open Sans', sans-serif;
   font-style: normal;
   font-weight: bold;
 }
@@ -484,19 +492,20 @@ textarea{
 
 
       border-radius: 10px;
-      border: none;
-      background: rgb(255 152 1);
+      border: 2px solid rgb(255 152 1);
+      background: none;
       font-size: 21px;
       font-family: 'Now' !important;
       font-style: normal;
       font-weight: bold;
-      color: white;
+      color: rgb(255 152 1);
       padding: 15px 40px;
-      text-decoration: none;;
+      text-decoration: none;
 
 }
 .botonenviar:hover{
-    background: black;
+  background: rgb(255 152 1);
+  color:white;
 }
 .servicios{
   display: grid;
@@ -508,7 +517,7 @@ width: 320px;
   padding-bottom: 20px;
 }
 .servicio-link{
-  font-family: Open Sans;
+  font-family: 'Open Sans', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 24px;
@@ -521,7 +530,7 @@ width: 320px;
   color:rgb(255 152 1);
 }
 .footer-titulo{
-  font-family: Open Sans;
+  font-family: 'Open Sans', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 32px;
@@ -546,7 +555,7 @@ width: 320px;
   border-radius:50px;
   text-align:center;
   font-size:30px;
-  z-index:100;
+  z-index:1;
 }
 
 .whatsapp-icon {
