@@ -13,6 +13,17 @@
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="icon" type="image/png" href="img/favicom.png" />
 <title>AJsoft</title>
+<script>
+  const init = async () => {
+      const config = await (await fetch('config.json')).json();
+      let newHTML = document.documentElement.innerHTML;
+      Object.keys(config).map((key) => {
+        newHTML = newHTML.replace(key, config[key]);
+      });
+      document.documentElement.innerHTML = newHTML;
+    };
+    init();
+</script>
 </head>
 <body>
 
@@ -329,6 +340,5 @@ Ademas de tu informacion de contacto y redes sociales.</p>
 
 </body>
 <script src="js/myscript.js"></script>
-<script src="js/main.js"></script>
 
 </html>
