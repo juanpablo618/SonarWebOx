@@ -11,7 +11,7 @@ $('.more-btn').click(function() {
   if ( $('#hiden-gallery').is( ".open" ) ) {
     $(".more-btn-inside").text("Show Less.");
   }else {
-    $(".more-btn-inside").text("Show More.");
+    $(".more-btn-inside").text("Mostrar más.");
   }
 });
 
