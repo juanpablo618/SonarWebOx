@@ -15,10 +15,6 @@ $('.more-btn').click(function() {
   }
 });
 
-
-
-
-
 function slickify(){
   $('.blog-slider').slick({
       autoplay: true,
@@ -57,6 +53,3 @@ $('#blog-btn').click(function() {
     $("#blog-btn").text("Show More Stories.");
   }
 });
-
-
-
