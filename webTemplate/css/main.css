@@ -130,7 +130,7 @@ h6,
 p {
   font-size: 1.1rem;
   line-height: 1.8;
-  color: white;
+  color: #1a1a1a;
   margin-bottom: 15px;
   letter-spacing: 0.025em;
 }
@@ -182,14 +182,18 @@ p {
   transition: all 0.3s ease;
 }
 .hero-btns a:last-child {
-  color: #FFF!important;
+  color: #FF9801;
   padding: 17px 35px;
   font-size: 1.0rem;
 }
 .hero-btns a:last-child:hover {
-  color: #FF9801 !important;
+  color: #1a1a1a !important;
   transition: all 0.3s ease;
 }
+.btncharlemos{
+  color: #fff !important;
+}
+
 .navbar-light .navbar-toggler {
   color: #314584;
   border: none;
