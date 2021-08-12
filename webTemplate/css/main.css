@@ -69,7 +69,7 @@ h5,
 .h5,
 h6,
 .h6 {
-  color: #314584;
+  color: #1A1A1A;
   font-weight: 600;
   letter-spacing: 1px;
 }
@@ -117,7 +117,7 @@ h4,
 h5,
 .h5 {
   font-size: 1rem;
-  color: #FF3946;
+  color: #FF9801;
 }
 h6,
 .h6 {
@@ -162,8 +162,8 @@ p {
   color: #FF3946;
 }
 .hero-btns a:first-child {
-  background-color: #FF3946;
-  border:2px solid #FF3946;
+  background-color: #FF9801;
+  border:2px solid #FF9801;
   color: #fff;
   padding: 17px 35px;
   font-size: 1.0rem;
@@ -174,20 +174,20 @@ p {
 }
 .hero-btns a:first-child:hover {
   background-color: #fff;
-  border:2px solid #FF3946;
-  color: #314584;
+  border:2px solid ##FF9801;
+  color: #1A1A1A;
   padding: 17px 35px;
   font-size: 1.0rem;
   border-radius: 30px;
   transition: all 0.3s ease;
 }
 .hero-btns a:last-child {
-  color: #314584;
+  color: #FFF!important;
   padding: 17px 35px;
   font-size: 1.0rem;
 }
 .hero-btns a:last-child:hover {
-  color: #FF3946;
+  color: #FF9801 !important;
   transition: all 0.3s ease;
 }
 .navbar-light .navbar-toggler {
@@ -260,11 +260,11 @@ p {
   background-color: #314584;
 }
 .service-btn a {
-  color: #fff!important;
+  color: #fff;
   font-size: 0.8rem!important;
 }
 .service-btn a:hover {
-  color: #FF3946!important;
+  color: #FF3946;
 }
 .more-btn {
   text-align: center;
@@ -317,13 +317,13 @@ p {
 .hero img {
   position: absolute;
   top: 0;
-  right: 0;
-  z-index: -9;
-  margin-top: 30px;
-  width: 50%;
+  right: 500px;
+  z-index: 1;
+  margin-top: 137px;
+    width: 25%;
 }
 .hero h1 {
-  margin-top: 250px;
+  margin-top: 40PX;
 }
 .hero p {
   margin-bottom: 50px;
@@ -495,7 +495,7 @@ p {
   transition: all 0.3s ease;
 }
 .blog-first {
-  background-color: #FF3946;
+  background-color: #314584;
 }
 .blog-first h6 {
   color: #fff;
@@ -625,6 +625,8 @@ footer h6 {
 @media (max-width: 1500px) {
   .hero img {
     margin-top: 130px;
+RIGHT: 100PX;
+WIDTH: 35%;
   }
 }
 @media (max-width: 1350px) {
